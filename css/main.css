@@ -1,0 +1,179 @@
+/*.Background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 2500px;
+  z-index: 9;
+}*/
+
+#home{
+    height:100vh;
+    width:100%;
+
+}
+
+#sobre{
+  height: 300px;
+  background: white
+}
+
+#corpo{
+  height: 200vh;
+}
+
+  #contato{
+    height: 40vh;
+    background: silver;
+  }
+
+#principal{
+  position: absolute;
+  background: rgba(0,0,0,.5);
+  width: 70%;
+  height: 240vh;
+  top: 60vh;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: .5%
+}
+
+/*
+.bg6 {
+  background-image: url("bg6.png");
+  opacity: 0.91;
+
+  left: 165px;
+  top: 289px;
+  width: 1070px;
+  height: 875px;
+  z-index: 7;
+}*/
+/*
+.bg5 {
+  background-color: black;
+
+  left: 185px;
+  top: 285px;
+  width: 1133px;
+  height: 2053px;
+  z-index: 6;
+  color: white;
+}*/
+/*
+.bg4 {
+  background: url("images/bg4.png");
+  opacity: 0.859;
+
+  left: -78px;
+  top: -1px;
+  width: 1748px;
+  height: 1165px;
+  z-index: 5;
+}*/
+
+/*.bg1 {
+  background-image: url("images/bg1.png");
+
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 2000px;
+  z-index: 4;
+}*/
+/*
+.MenuBar {
+
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 2500px;
+  z-index: 14;
+}
+.menu_text {
+  font-size: 25.708px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+
+  left: 10vw;
+  z-index: 13;
+}
+.corMenu {
+  background-color: rgb(198, 79, 57);
+
+  left: 150px;
+  top: -2px;
+  width: 111px;
+  height: 112px;
+  z-index: 12;
+}
+.socialmidia {
+  background-image: url("socialmidia.png");
+
+  left: 1011px;
+  top: 35px;
+  width: 257px;
+  height: 51px;
+  z-index: 11;
+}*/
+
+
+/*
+.Title {
+
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 2500px;
+  z-index: 21;
+}*/
+
+/*.DEVELOPER {
+  font-size: 25.708px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 2.75091223523008,0,0,2.75091223523008,0,0);
+  -webkit-transform: matrix( 2.75091223523008,0,0,2.75091223523008,0,0);
+  -ms-transform: matrix( 2.75091223523008,0,0,2.75091223523008,0,0);
+  position: absolute;
+  left: 397.999px;
+  top: 422.075px;
+  z-index: 20;
+}*/
+
+/*.text1 {
+  font-size: 25.708px;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 1.105251857436,0,0,1.105251857436,0,0);
+  -webkit-transform: matrix( 1.105251857436,0,0,1.105251857436,0,0);
+  -ms-transform: matrix( 1.105251857436,0,0,1.105251857436,0,0);
+  position: absolute;
+  left: 290.536px;
+  top: 483.819px;
+  z-index: 19;
+}*/
+
+.Dennis_Siqueira {
+  font-size: 25.708px;
+  font-family: "Hirondelles des Alpes";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  line-height: 1.2;
+  /*text-align: center;*/
+  -moz-transform: matrix( 5.75458836744408,0,0,5.75458836744408,0,0);
+  -webkit-transform: matrix( 5.75458836744408,0,0,5.75458836744408,0,0);
+  -ms-transform: matrix( 5.75458836744408,0,0,5.75458836744408,0,0);
+  position: absolute;
+  left: 662.878px;
+  margin-top: 15%;
+  /*z-index: 18;*/
+}
