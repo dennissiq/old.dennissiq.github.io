@@ -1,0 +1,29 @@
+h1{
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  color:rgb(156, 156, 156);
+}
+
+h2{
+  text-align:center;
+  font-family: 'Lobster', cursive;
+  color:rgb(156, 156, 156);
+}
+
+img{
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  background-color: rgb(240, 248, 255);
+}
+
+p{
+  font-family: 'Libre Baskerville', serif;
+  color:rgb(156,156,156);
+  text-align: center;
+}

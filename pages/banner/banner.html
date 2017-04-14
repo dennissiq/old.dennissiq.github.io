@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link href="https://fonts.googleapis.com/css?family=Lato|Libre+Baskerville|Lobster" rel="stylesheet">
+
+
+      <title>
+        SlideShow - Dennis 81621468
+      </title>
+    </head>
+
+    <body>
+          <h1>JavaScript SlideShow</h1>
+          <h2>Dennis Siqueira</h2>
+
+
+
+          <div class="w3-container">
+          </div>
+
+          <div class="w3-content w3-display-container">
+
+    <div class="w3-display-container mySlides thumbnail-wrapper w3-opacity-min">
+      <img src="images/img5.jpg">
+    </div>
+
+    <div class="w3-display-container mySlides thumbnail-wrapper w3-opacity-min">
+      <img src="images/img6.jpg">
+    </div>
+
+    <div class="w3-display-container mySlides thumbnail-wrapper w3-opacity-min">
+      <img src="images/img7.jpg">
+    </div>
+
+    <div class="w3-display-container mySlides thumbnail-wrapper w3-opacity-min">
+      <img src="images/img8.jpg">
+    </div>
+
+
+    </div>
+  </div>
+
+  <p>Exemplo de Slide de Imagens Automáticas<br>
+    <br>
+    Dennis Siqueira de Oliveira
+    <br>
+    R.A: 81621468
+    <br>
+    Turma: CCO1BN-BUA
+  </p>
+
+<script>
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2500); // Muda a cada 2,5 segundos
+}
+
+</script>
+
+    </body>
+
+  </html>

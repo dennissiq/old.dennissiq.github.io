@@ -1,0 +1,26 @@
+body{
+  font-family: monospace;
+  background-color: rgba(92, 74, 232, 0.57);
+}
+
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+}
+fieldset{
+}
+form{
+  text-align: center;
+  width: 15%;
+  margin:auto;
+  height: 15%;
+}
+
+h5{
+  text-align: right;
+}
+
+input{
+  text-align: center;
+}
