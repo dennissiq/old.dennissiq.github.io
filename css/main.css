@@ -19,7 +19,7 @@
 
 
 #portfolio{
-  height: 20vh;
+  height: 100vh;
   background: rgb(241, 241, 241);
 }
 
@@ -36,9 +36,9 @@
 
 #principal {
     position: absolute;
-    background: rgba(0, 0, 0, .45);
+    background: rgba(0, 0, 0, .2);
     width: 70%;
-    height: 140vh;
+    height: 120vh;
     top: 60vh;
     margin-left: 15%;
     margin-right: 15%;
@@ -50,7 +50,7 @@ p.mainP {
     margin-right: 15%;
     margin-top: 4%;
     text-align: justify;
-    font-size: 150%;
+    font-size: 145%;
 }
 p.mainAbout {
     margin-left: 15%;
@@ -93,4 +93,13 @@ p.TextBGWhite {
   text-align: center;
   color: rgb(203, 203, 203);
 
+}
+
+img{
+  width: 35%;
+  height: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: white;
 }
