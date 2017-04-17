@@ -36,9 +36,9 @@
 
 #principal {
     position: absolute;
-    background: rgba(0, 0, 0, .2);
+    background: rgba(0, 0, 0,.1);
     width: 70%;
-    height: 120vh;
+    height: 240vh;
     top: 60vh;
     margin-left: 15%;
     margin-right: 15%;
@@ -53,8 +53,8 @@ p.mainP {
     font-size: 145%;
 }
 p.mainAbout {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 4%;
     text-align: justify;
     font-size: 125%;
@@ -63,7 +63,7 @@ p.mainAbout {
 .Dennis_Siqueira {
     font-size: 15px;
     font-family: 'Lobster', cursive;
-    color: rgb(255, 255, 255);
+    color: rgb(238, 238, 238);
     font-style: italic;
     line-height: 1.2;
     -moz-transform: matrix( 5.75458836744408, 0, 0, 5.75458836744408, 0, 0);
