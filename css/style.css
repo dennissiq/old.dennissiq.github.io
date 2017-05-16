@@ -1,0 +1,427 @@
+/*
+
+Paleta de Cor
+
+#8840c1 Main Color
+#b353ff; Hover Color
+#333;  Gray Theme
+*/
+
+
+/*NAV*/
+
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar{
+	margin-bottom: 0;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar .navbar-header .navbar-brand{
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	font-size: 1.6em;
+	font-weight: 800;
+	color: #333;
+}
+
+.navbar .masthead-nav{
+	margin-top: 1.3em;
+}
+
+.navbar .masthead-nav > li{
+  display: inline-block;
+}
+
+.navbar .masthead-nav > li + li{
+  margin-left: 40px;
+}
+
+.navbar .masthead-nav > li > a{
+	padding:0.2em;
+	font-size: 1em;
+	color: #333;
+	background: transparent;
+	text-transform: uppercase;
+}
+
+.navbar.light .navbar-header .navbar-brand,
+.navbar.light .masthead-nav > li > a{
+	color: #fff;
+}
+
+.navbar .masthead-nav a::after,
+.navbar .masthead-nav .active a::after,
+.navbar .masthead-nav .active a::after{
+	content: '';
+  position: absolute;
+  left: 3%;
+  top: 70%;
+  width: 95%;
+	border-bottom: transparent 2px solid;
+}
+
+.navbar .masthead-nav a:hover::after,
+.navbar .masthead-nav .active a:hover::after,
+.navbar .masthead-nav .active a::after{
+	border-bottom: 2px solid;
+  top: 100%;
+	transition: all .2s ease;
+}
+
+
+.h1-title{
+  font-size: 5em;
+  text-align: center;
+  color: #8840c1;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+.h2-title{
+  font-size: 2em;
+  text-align: center;
+}
+
+.texto-corpo{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.25em;
+  color: #333;
+}
+.h3-title{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.5em;
+  color: #8840c1;
+}
+.container-style{
+  /*background-color: #ac6be6;*/
+  padding-top: 15px;
+}
+
+
+/*Coffee Animation*/
+@keyframes wave {
+  0% {opacity: 0; transform: translateY(15px)}
+  50% {opacity: 1; transform: translateY(0)}
+  100% {opacity: 0; transform: translateY(-15px)}
+}
+.loader ul {
+  margin: 0 0 10px 0;
+  padding: 0;
+  list-style: none;
+  width: 60px;
+  text-align: center;
+  animation: wave 2.5s infinite linear;
+  animation-fill-mode: forwards;
+}
+.loader li {
+  display: inline-block;
+  background: #acacac;
+  height: 30px;
+  width: 9px;
+  border-radius: 0 100%;
+  transform: rotate(12deg);
+}
+.cup {
+  background: #F2E3B4;
+  width: 60px;
+  height: 54px;
+  border-radius: 0 0 50% 50%;
+  position: relative;
+}
+.cup:before {
+  content: "";
+  position: absolute;
+  width: 66px;
+  height: 20px;
+  border-radius: 50%;
+  background: inherit;
+  left: -3px;
+  top: -10px;
+}
+.cup:after {
+  content: "";
+  position: absolute;
+  width: 56px;
+  height: 12px;
+  border-radius: 50%;
+  background: #3A2F28;
+  left: 2px;
+  top: -6px;
+}
+.loader span {
+  background: #F2E3B4;
+  width: 13px;
+  height: 20px;
+  position: absolute;
+  right: -13px;
+  top: 10px;
+  border-radius: 0 50% 50% 0;
+}
+.loader span:before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background: #ffffff;
+  width: 10px;
+  height: 12px;
+  border-radius: 0 50% 50% 0;
+}
+.loader span:after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: -50px;
+  background: #F2E3B4;
+  width: 40px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+/*Animation Gear*/
+
+@keyframes pulse {
+  10% {
+    transform: scale(1.1);
+  }
+  20% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.01);
+  }
+  40% {
+    transform: scale(0.99);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+svg {
+  width: 30%;
+}
+
+.sgv-gear-width{
+  width: 45%;
+}
+
+@keyframes turn {
+  10% {
+    transform: rotate(10deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  80% {
+    transform: rotate(2880deg);
+  }
+  90% {
+    transform: rotate(2900deg);
+  }
+  100% {
+    transform: rotate(2880deg);
+  }
+}
+
+@keyframes rotate-right {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes rotate-left {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+#piece-1 {
+  animation: pulse 3s ease-out infinite;
+
+  transform-origin: 47px 47px;
+}
+
+
+
+#gear {
+  animation: rotate-right 10s linear infinite;
+
+  transform-origin: 47px 47px;
+}
+
+#gear2 {
+  animation: rotate-left 10s linear infinite;
+
+  transform-origin: 47px 47px;
+}
+
+
+
+/*Div vazia*/
+.white-space{
+  /*background-color: #8840c1;*/
+  height: 35vh;
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+/*Footer*/
+.footer-page{
+  /*background-color: #8840c1;*/
+  height: 35vh;
+  width: 100%;
+  border-radius: 8px;
+}
+
+/*Social Media*/
+
+.contact-link{
+  color:#8840c1;
+}
+.contact-link:hover{
+  color:#b353ff;
+}
+
+.social-media{
+
+  list-style: none;
+  text-align: center;
+  color: #8840c1;
+  margin: 0px;
+  padding: 2px 10px;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 45px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color:#b353ff;
+}
+
+.fa-facebook{
+  color:#8840c1;
+}
+.fa-linkedin{
+  color:#8840c1;
+}
+.fa-github{
+  color:#8840c1;
+}
+.fa-instagram{
+  color:#8840c1;
+}
+.fa-twitter{
+  color:#8840c1;
+}
+.fa-medium{
+  color:#8840c1;
+}
+
+
+/*Exercises Cards*/
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+
+#img-content{
+
+}
+#title-photography{
+
+}
+
+
+/*Responsive Site*/
+
+@media (max-width: 480px){
+  .texto-corpo {
+    text-align: justify;
+  }
+  /*.fa-medium{
+    display: none;
+  }*/
+  #img-content{
+    display: none;
+  }
+  .h1-title{
+    font-size: 2em;
+  }
+
+  svg{
+    display:none;
+  }
+
+  .navbar-brand{
+    display:none;
+  }
+
+}
+
+@media (max-width:640px){
+  .navbar{
+    text-align: center;
+  }
+}
+/*#img-content{
+  display: none;
+}*/
+/*
+@media (max-height:1280px){
+  #img-content{
+    display: none;
+  }
+}*/
+
+
+@media (max-width:1024px){
+  .navbar-brand{
+    display: none;
+  }
+  #img-content{
+    display: none;
+  }
+}
+@media (max-width:1280px){
+  svg{
+    display:none;
+  }
+  .white-space{
+    height: 15vh;
+    width: 100%;
+
+  }
+}
