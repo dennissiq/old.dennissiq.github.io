@@ -1,0 +1,33 @@
+form {
+  width: 20em;
+  font-size: 1.1em;
+  /*align-items: center;*/
+}
+
+form fieldset {
+  border: 1px solid #666;
+  padding: 0 0.5em;
+}
+
+form legend {
+  padding: 0 0.5em;
+  border: 1px solid #333;
+}
+
+form label {
+  display: block;
+  margin-top: 0.5em
+}
+
+form input {
+  width: 15em;
+}
+
+h1 {
+  font-size: 25px;
+  color: #b323cb;
+  text-align: center;
+}
+p {
+  font-size: 10px;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -35,9 +35,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
+  <!-- Animated things :)  -->
+  <link rel="stylesheet" href="css/animate.css">
+
 </head>
 
 <body>
+
+<!-- SCROLL TOP BUTTON -->
+
+<button onclick="topFunction()" class="animated fadeIn fa fa-arrow-up" id="myBtn" title="Go to top"></button>
+
+
 
   <!-- NAVBAR -->
   <div class="navbar-wrapper">
@@ -45,7 +54,7 @@
       <div class="navbar navbar-static-top">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="http://www.dennissiq.github.io/">Dennis Siqueira</a>
+            <a class="navbar-brand" href="https://dennissiq.github.io/">Dennis Siqueira</a>
           </div>
 
           <nav class="pull-right">
@@ -66,7 +75,7 @@
 
   <div class="container-fluid">
     <div class="container">
-      <h1 class="h1-title">Hi, i'm Dennis</h1>
+      <h1 class="h1-title animated fadeInUp">Hi, i'm Dennis</h1>
       <h2 class="h2-title">Coffee &amp; Coding</h2>
 
       <!-- Coffee Animation -->
@@ -140,31 +149,57 @@
         </div>
 
       </div>
+    </div>
+
 
 
       <div class="white-space"></div>
 
       <!-- Footer -->
+    <footer>
       <h1 class="h2-title footer-page" id="Contato" style="color:#8840c1;"><a href="mailto:ti.dennissiqueira@gmail.com" class="contact-link"><b>Vamos conversar, mande uma mensagem :)</b></a></h1>
       <div class="second-footer">
-        <div class="container">
-          <div class="row">
-            <ul class="span12" style="list-style: none; text-align:right;">
+        <div class="container-fluid">
+          <div class="row-fluid">
+            <div class="span6">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.992412608157!2d-46.716002985739046!3d-23.568715984679237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59365eb465ab%3A0x69089613db4c82a8!2sUniversidade+S%C3%A3o+Judas+Tadeu+-+USJT+Campus+Butant%C3%A3!5e0!3m2!1spt-BR!2sbr!4v1495292372618" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <ul class="span6" style="list-style: none; text-align:right;">
               <li><h6>© 2017 Dennis Siqueira. All rights reserved. Make with<i class="fa fa-heart" aria-hidden="true"></i></h6></li>
 
                 <a href="http://facebook.com/dennissiq" class="fa fa-facebook"></a>
                 <a href="http://instagram.com/dennissiq" class="fa fa-instagram"></a>
-                <a href="http://twitter.com/dennissiq" class="fa fa-twitter"></a>
-                <a href="https://dennissiq.github.io/" class="fa fa-github"></a>
+                <!-- <a href="http://twitter.com/dennissiq" class="fa fa-twitter"></a> -->
+                <!-- <a href="https://dennissiq.github.io/" class="fa fa-github"></a> -->
                 <a href="http://linkedin.com/in/dennis-siqueira" class="fa fa-linkedin"></a>
-                <a href="https://medium.com/@dennissiqueira" class="fa fa-medium"></a>
+                <!-- <a href="https://medium.com/@dennissiqueira" class="fa fa-medium"></a> -->
             </ul>
-
 
           </div>
         </div>
-
       </div>
+    </footer>
+
+    <!-- JS ScrollTop -->
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+          }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+
 
 
 
