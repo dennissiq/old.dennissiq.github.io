@@ -1,0 +1,21 @@
+------------------------------Funcionalidades How To ---------------------------
+
+
+TopNavigation (Menu no topo) OK
+Site Responsivo OK
+Menu Responsivo OK
+Lightbox - OK
+Texto animado (js animation) OK
+Social Media Buttons OK
+Google Maps OK
+Google Fonts OK
+Scroll to top OK
+Tab Headers OK
+CountDown Timer OK
+Alerts OK
+Coming Soon OK
+SnackBar OK
+Image Effects OK
+Mapa Mental OK
+
+
