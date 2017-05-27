@@ -1,6 +1,6 @@
 <map version="freeplane 1.5.9">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="dennissiq.github.io" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1749989795" CREATED="1495314313563" MODIFIED="1495318854075"><hook NAME="MapStyle" zoom="0.77">
+<node TEXT="dennissiq.github.io" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1749989795" CREATED="1495314313563" MODIFIED="1495318854075"><hook NAME="MapStyle" zoom="0.767">
     <properties fit_to_viewport="false;"/>
 
 <map_styles>

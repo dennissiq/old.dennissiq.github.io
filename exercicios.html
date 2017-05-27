@@ -60,7 +60,7 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="sobre.html">Sobre</a></li>
               <li><a href="fotografia.html">Fotografia</a></li>
-              <li><a href="#Contato">Contato</a></li>
+              <li><a class="scroll" href="#Contato">Contato</a></li>
               <li class="active"><a href="exercicios.html">Exercícios</a></li>
             </ul>
           </nav>
@@ -168,6 +168,115 @@
       </div>
     </div>
   </div> -->
+
+
+
+  <!-- Functional Cool Table -->
+
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span12">
+        <h1 id="title-photography" class="h1-title animated fadeInUp">Funcionalidades</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row-fluid">
+      <div style="overflow-x:auto;">
+  <table>
+    <tr>
+      <th>1. TopNavigation</th>
+      <td>Menu no Topo</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>2. Site Responsivo (Web Site 2016)</th>
+      <td>Páginas do site responsivas</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>3. Menu Responsivo (Responsive Topnav)</th>
+      <td>Menu do site responsivo</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>4. Lightbox</th>
+      <td>Coloca fotos em uma galeria</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>5. Textos animados (JS Animation)</th>
+      <td>Alguns textos do sites possuem animações</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>6. Social Media Buttons</th>
+      <td>Páginas do site com link para rede sociais no footer</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>7. Google Maps</th>
+      <td>Funcionalidade do Google Maps</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>8. Google Fonts</th>
+      <td>Fontes utilizadas do repositório do Google Fonts</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>9. Scroll to top</th>
+      <td>Botão que volta para o início da página.</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>10. Tab Headers</th>
+      <td>Utilizada na página de exercícios como menu para ir as atividade propostas</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>10. Tab Headers</th>
+      <td>Utilizada na página de exercícios como menu para ir as atividade propostas</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>11. CountDown Timer</th>
+      <td>Timer utilizado para demonstrar conteúdo que será colocado em breve</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>12. Alerts</th>
+      <td>Alertas informativos</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>13. Coming Soon</th>
+      <td>Funcionalidade de uma página exemplificando um hotsite</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>14. SnackBar</th>
+      <td>Aparece quando fechamos os alertas</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>15. Image Effects</th>
+      <td>Cria efeitos nas fotos</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <th>16. Responsive Tables</th>
+      <td>Funcionalidade de Tabela Responsiva, esta é uma tabela responsiva</td>
+      <td>100%</td>
+    </tr>
+
+  </table>
+</div>
+
+
+    </div>
+  </div>
 
 
 
@@ -421,6 +530,18 @@
       }, 3000);
     }
   </script>
+
+  <!-- Scroll Animate -->
+
+  <script>
+  jQuery(document).ready(function($) {
+      $(".scroll").click(function(event){
+          event.preventDefault();
+          $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+     });
+  });
+  </script>
+
 
 
 </body>

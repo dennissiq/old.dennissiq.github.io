@@ -64,7 +64,7 @@
               <li><a href="index.html">Home</a></li>
               <li class="active"><a href="sobre.html">Sobre</a></li>
               <li><a href="fotografia.html">Fotografia</a></li>
-              <li><a href="#Contato">Contato</a></li>
+              <li><a class="scroll" href="#Contato">Contato</a></li>
               <li><a href="exercicios.html">Exercícios</a></li>
             </ul>
           </nav>
@@ -291,6 +291,18 @@
     document.documentElement.scrollTop = 0;
   }
 </script>
+
+<!-- Scroll Animate -->
+
+<script>
+jQuery(document).ready(function($) {
+    $(".scroll").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+   });
+});
+</script>
+
 
 
 </body>
