@@ -61,7 +61,7 @@
               <li><a href="sobre.html">Sobre</a></li>
               <li><a href="fotografia.html">Fotografia</a></li>
               <li><a class="scroll" href="#Contato">Contato</a></li>
-              <li class="active"><a href="exercicios.html">Exercícios</a></li>
+              <li class="active"><a href="exercicios.html" id="tb-hd">Exercícios</a></li>
             </ul>
           </nav>
         </div>
@@ -151,7 +151,7 @@
         <button class="tablink tab-menu" onclick="openCity('triangle', this, '#8840c1')">Triângulo</button>
         <button class="tablink tab-menu" onclick="openCity('banner', this, '#b353ff')">Banner</button>
         <button class="tablink tab-menu" onclick="openCity('mask', this, '#8840c1')">Máscaras</button>
-        <button class="tablink tab-menu" onclick="openCity('soon', this, '#b353ff')">Mais</button>
+        <button class="tablink tab-menu" onclick="openCity('soon', this, '#b353ff')" id="more-ex">Mais</button>
 
       </div>
     </div>
@@ -169,6 +169,16 @@
     </div>
   </div> -->
 
+<!-- style for links -->
+<style>
+  .link-color{
+    color:#333;
+  }
+
+  .link-color:hover{
+    color:#333;
+  }
+</style>
 
 
   <!-- Functional Cool Table -->
@@ -201,22 +211,22 @@
       <td>100%</td>
     </tr>
     <tr>
-      <th>4. Lightbox</th>
+      <th><a href="https://dennissiq.github.io/fotografia.html" class="link-color">4. Lightbox</a></th>
       <td>Coloca fotos em uma galeria</td>
       <td>100%</td>
     </tr>
     <tr>
-      <th>5. Textos animados (JS Animation)</th>
+      <th><a href="https://dennissiq.github.io/" class="link-color">5. Textos animados (JS Animation)</a></th>
       <td>Alguns textos do sites possuem animações</td>
       <td>100%</td>
     </tr>
     <tr>
-      <th>6. Social Media Buttons</th>
+      <th><a href="#social-md" class="link-color">6. Social Media Buttons</a></th>
       <td>Páginas do site com link para rede sociais no footer</td>
       <td>100%</td>
     </tr>
     <tr>
-      <th>7. Google Maps</th>
+      <th><a href="#maps" class="link-color">7. Google Maps</a></th>
       <td>Funcionalidade do Google Maps</td>
       <td>100%</td>
     </tr>
@@ -231,27 +241,22 @@
       <td>100%</td>
     </tr>
     <tr>
-      <th>10. Tab Headers</th>
+      <th><a href="#tb-hd" class="link-color">10. Tab Headers</a></th>
       <td>Utilizada na página de exercícios como menu para ir as atividade propostas</td>
       <td>100%</td>
     </tr>
     <tr>
-      <th>10. Tab Headers</th>
-      <td>Utilizada na página de exercícios como menu para ir as atividade propostas</td>
-      <td>100%</td>
-    </tr>
-    <tr>
-      <th>11. CountDown Timer</th>
-      <td>Timer utilizado para demonstrar conteúdo que será colocado em breve</td>
+      <th><a href="#more-ex" class="link-color">11. CountDown Timer</th>
+      <td>Timer utilizado para demonstrar conteúdo que será colocado em breve - Mostrado na aba "Mais" desta página.</td>
       <td>100%</td>
     </tr>
     <tr>
       <th>12. Alerts</th>
-      <td>Alertas informativos</td>
+      <td>Alertas informativos - Mostrado ao entrar na página de exercícios.</td>
       <td>100%</td>
     </tr>
     <tr>
-      <th>13. Coming Soon</th>
+      <th><a href="https://dennissiq.github.io/c-soon.html" class="link-color">13. Coming Soon</a></th>
       <td>Funcionalidade de uma página exemplificando um hotsite</td>
       <td>100%</td>
     </tr>
@@ -261,8 +266,8 @@
       <td>100%</td>
     </tr>
     <tr>
-      <th>15. Image Effects</th>
-      <td>Cria efeitos nas fotos</td>
+      <th><a href="https://dennissiq.github.io/fotografia.html" class="link-color">15. Image Effects</a></th>
+      <td>Cria efeitos nas fotos ao passar o mouse</td>
       <td>100%</td>
     </tr>
     <tr>
@@ -302,7 +307,7 @@
       <div class="container-fluid">
         <div class="row-fluid">
           <div class="span1"></div>
-          <div class="span5">
+          <div class="span5" id="maps">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.992412608157!2d-46.716002985739046!3d-23.568715984679237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59365eb465ab%3A0x69089613db4c82a8!2sUniversidade+S%C3%A3o+Judas+Tadeu+-+USJT+Campus+Butant%C3%A3!5e0!3m2!1spt-BR!2sbr!4v1495292372618"
               width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
@@ -310,7 +315,7 @@
             <li>
               <li>
                 <h6>© 2017 Dennis Siqueira. All rights reserved. Make with<i class="fa fa-heart" aria-hidden="true"></i></h6></li>
-              <a href="http://facebook.com/dennissiq" class="fa fa-facebook"></a>
+              <a href="http://facebook.com/dennissiq" class="fa fa-facebook" id="social-md"></a>
               <a href="http://instagram.com/dennissiq" class="fa fa-instagram"></a>
               <!-- <a href="http://twitter.com/dennissiq" class="fa fa-twitter"></a> -->
               <!-- <a href="https://dennissiq.github.io/" class="fa fa-github"></a> -->
